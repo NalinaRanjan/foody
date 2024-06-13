@@ -17,6 +17,7 @@ const[showPopUp , setShowPopUp] = useState(false)
     {showPopUp ? <LoginPopUp setShowPopUp={setShowPopUp}/> : <></>}
       <div className='app'>
         <Navbar showPopUp={showPopUp} setShowPopUp={setShowPopUp} />
+        <Home />
         <Router basename="/foody">
         <Routes>
           <Route path='/' element={<Home />} />
