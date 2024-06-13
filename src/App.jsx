@@ -18,13 +18,13 @@ const[showPopUp , setShowPopUp] = useState(false)
       <div className='app'>
         <Navbar showPopUp={showPopUp} setShowPopUp={setShowPopUp} />
         <Home />
-        <Router basename="/foody">
+{/*         <Router basename="/foody">
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/Cart' element={<Cart/>} />
           <Route path='/PlaceOrder' element={<PlaceOrder />} />
         </Routes>
-          </Router>
+          </Router> */}
       </div>
       <Footer />
     </>
